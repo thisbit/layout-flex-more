@@ -1,0 +1,65 @@
+* {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+section {
+  margin: 2em 1em;
+  display: flex;
+  background-color: darkslategray;
+  padding: 1em;
+}
+
+.horizontal {
+  flex-direction: row;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.vertical {
+  flex-direction: column;
+}
+
+.left {
+  justify-content: flex-start;
+}
+
+.right {
+  justify-content: flex-end;
+}
+
+.spreadfull {
+  justify-content: space-between;
+}
+
+.spreadless {
+  justify-content: space-around;
+}
+
+/* items layout here */
+
+.item {
+  background-color: gray;
+  padding: 1em;
+  margin: 1em;
+}
+
+.dogrow {
+  flex-grow: 3;
+}
+
+.doshrink {
+  flex-shrink: 3;
+}
+
+.doflex {
+  flex-basis: 1;
+  flex-shrink: 1;
+  flex-grow: 1;
+  justify-self: flex-start;
+}
+
+.dofour {
+  width: 20%;
+}
